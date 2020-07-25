@@ -151,6 +151,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .main .film {
   width: 212px;
   height: 316px;
@@ -382,4 +383,48 @@ body {
 .right {
   align-content: flex-end;
   text-align: end;
+}
+@media (max-width: 800px) {
+  .main .film-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .top {
+    width: 100%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    margin: 20px 100px;
+  }
+  .top-right {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .input {
+    max-width: 75%;
+  }
+  .page .name {
+    padding-top: 40px;
+  }
+  .questions {
+    max-width: 100%;
+  }
+  .questions svg {
+    display: none;
+  }
+  .pictures .report {
+    left: 80px;
+  }
+  .similar {
+    max-width: 50%;
+  }
+  .similar-pages img {
+    left: 10px;
+  }
+  .similar-pages .pages p {
+    left: 0px;
+  }
 }
