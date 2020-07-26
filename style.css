@@ -5,6 +5,7 @@ body {
   min-width: 99vw;
   font-family: arial, sans-serif;
 }
+/* Top section of the page */
 .top {
   width: 100%;
 
@@ -91,6 +92,7 @@ body {
   padding-bottom: 5px;
   border-bottom: blue 2px solid;
 }
+/* Main section of the page */
 .main {
   flex-grow: 5;
   align-self: left;
@@ -151,7 +153,6 @@ body {
   display: flex;
   flex-direction: row;
 }
-
 .main .film {
   width: 212px;
   height: 316px;
@@ -185,7 +186,6 @@ body {
 .main .rest span {
   color: #202124;
 }
-
 .questions {
   border: 0.5px solid #d2d2d2;
   width: 670px;
@@ -330,6 +330,7 @@ body {
   position: relative;
   left: 350px;
 }
+/* Footer */
 .footer {
   max-height: 20%;
   flex-grow: 0.1;
@@ -384,6 +385,7 @@ body {
   align-content: flex-end;
   text-align: end;
 }
+/* Media queries */
 @media (max-width: 800px) {
   .main .film-container {
     display: flex;
@@ -407,7 +409,7 @@ body {
     max-width: 75%;
   }
   .page .name {
-    padding-top: 40px;
+    padding-top: 25px;
   }
   .questions {
     max-width: 100%;
